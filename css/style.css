@@ -1,0 +1,11 @@
+.navigation {
+    list-style: none;
+}
+
+.cart {
+    background: #4592FF;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
