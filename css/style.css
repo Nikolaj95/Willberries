@@ -1,3 +1,8 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
 .navigation {
     list-style: none;
     padding: 0;
@@ -7,7 +12,6 @@
 .navigation-link {
     text-decoration: none;
     color: #939699;
-    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -22,8 +26,6 @@
     padding: 10px 20px;
     border: none;
     color: white;
-
-    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -35,4 +37,63 @@
 
 .icon-btn {
     margin-right: 10px;
+}
+
+.cart-btn:focus {
+    outline: none;
+}
+
+.bestseller {
+    background-color: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    display: inline-block;
+    border: none;
+    color: white;
+    margin-top: 90px;
+    font-size: 12px;
+}
+
+.bestseller:focus {
+    outline: none;
+}
+
+.slider {
+    background: #B4D1E0 url("../img/Background.jpg") no-repeat center;
+    min-height: 570px;
+}
+
+.slider-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+    margin-top: 25px;
+}
+
+.slider-text {
+    color: #4B5157;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.price-btn {
+    margin-right: 10px;
+}
+
+.slide-arrow button {
+    background: none;
+    border: none;
+    outline: none;
+
+}
+
+.slide-arrow {
+    margin-top: 255px;
 }
