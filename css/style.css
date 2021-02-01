@@ -170,6 +170,7 @@ body {
     border-radius: 10px;
     padding-top: 35px;
 }
+
 .card-3-title {
     font-family: 'Roboto Slab', serif;
     font-style: normal;
@@ -205,11 +206,37 @@ body {
     color: #FFFFFF;
 }
 
-.card-3-slider {
-    max-height: 200px;
+.slider-img {
+    background: transparent;
+    border: 3px solid white;
 }
 
-.slider-img-1 {
-    border: 2px solid white;
-    border-radius: 10px;
+.slider-img:focus {
+    outline: none;
+}
+
+.card-3-slider {
+    margin-right: 35px;
+}
+
+.slider-img:first-child {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}
+
+.slider-img:last-child {
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+}
+
+.slide-active {
+    background-color: white;
+}
+
+.text-gray {
+    color: #4B5157;
+}
+
+.text-white {
+    color: white;
 }
