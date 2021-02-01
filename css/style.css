@@ -164,7 +164,8 @@ body {
 }
 
 .card-3 {
-    background: #CCD5E6 url(../img/Card-03.png) no-repeat top right;
+    background: #CCD5E6 url(../img/Card-03.png) no-repeat;
+    background-position-x: 80%;
     padding-left: 45px;
     border-radius: 10px;
     padding-top: 35px;
@@ -202,4 +203,13 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+.card-3-slider {
+    max-height: 200px;
+}
+
+.slider-img-1 {
+    border: 2px solid white;
+    border-radius: 10px;
 }
