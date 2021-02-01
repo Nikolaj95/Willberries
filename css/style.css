@@ -147,6 +147,7 @@ body {
 
 .card-section {
     padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .card-2 {
@@ -239,4 +240,58 @@ body {
 
 .text-white {
     color: white;
+}
+
+.arrival-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+}
+
+.view-all {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+}
+
+.arrival-head{
+    padding-bottom: 30px;
+}
+
+.new-arrival-card-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+    text-align: center;
+}
+
+.new-arrival-card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    text-align: center;
+}
+
+.new-arrival-card-price {
+    font-size: 18px;
+    line-height: 30px;
+    color: #262D33;
+    text-align: center;
+}
+
+.new-arrival-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
